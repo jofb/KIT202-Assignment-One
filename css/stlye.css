@@ -1,0 +1,7 @@
+:root {
+    --font-stack: "Poppins", sans-serif;
+}
+
+* {
+    font-family: var(--font-stack);
+}
