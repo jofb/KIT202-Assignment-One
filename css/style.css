@@ -1,5 +1,6 @@
 /* Global css file */
 
+/* Varibles */
 :root {
     --font-stack: "Poppins", sans-serif;
 }
@@ -19,9 +20,6 @@
     top: 0;
     background: darkslategray;
     color: white;
-    padding: 1rem;
-
-    justify-content: space-between;
 }
 .navbar-title {
     font-size: 3rem;
@@ -34,11 +32,15 @@
     list-style: none;
     text-decoration: none;
 }
+.navbar-title {
+    font-size: 3rem;
+}
 .nav-item {
-    margin: 0 1.5rem;
+    margin: 1rem;
     text-align: center;
 }
 .nav-item a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
 }
