@@ -44,3 +44,15 @@
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+main {
+    width: 850px;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    background-color: lightgray;
+}
