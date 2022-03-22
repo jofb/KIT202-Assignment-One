@@ -1,8 +1,12 @@
 /* Global css file */
 
-/* Varibles */
+/* Variables */
 :root {
     --font-stack: "Poppins", sans-serif;
+    --primary-colour: rgb(218, 184, 139);
+    --secondary-colour: rgb(243, 233, 221);
+    --third-colour: rgb(253, 246, 236);
+    --fourth-colour: rgb(183, 202, 219);
 }
 
 * {
