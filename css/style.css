@@ -27,7 +27,6 @@
 }
 .navbar-title {
     font-size: 3rem;
-    margin-bottom: 0.5rem;
 }
 .nav-items {
     display: flex;
@@ -36,24 +35,40 @@
     list-style: none;
     text-decoration: none;
 }
-.navbar-title {
-    font-size: 3rem;
-}
 .nav-item {
-    margin: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
     text-align: center;
+    background-image: url("../images/movie-button-right.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-.nav-item a {
+/* for jordan to fix later */
+/* .nav-item-index {
+    background-image: url("../images/movie-button-left.png");
+}
+.nav-item-login {
+    background-image: url("../images/movie-button-right.png");
+} */
+.nav-item button {
+    cursor: pointer;
     color: white;
-    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
     font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.nav-item:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
 }
 
 main {
     width: 70%;
     margin: auto;
     padding: 20px;
-    border-radius: 1rem;
 }
 
 body {
