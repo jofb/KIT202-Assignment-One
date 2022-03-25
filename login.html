@@ -38,15 +38,27 @@
             </ul>
         </nav>
         <main>
-            <h1>Login</h1>
-            <form>
-                <input type="text" id="username" placeholder="Username" />
+            <h1 class="form-title">Login</h1>
+            <form class="login-form">
+                <input
+                    type="text"
+                    id="login-username"
+                    placeholder="Username"
+                    required
+                />
                 <br />
-                <input type="password" id="password" placeholder="Password" />
+                <input
+                    type="password"
+                    id="login-password"
+                    placeholder="Password"
+                    required
+                />
                 <br />
                 <input type="submit" value="Sign In" />
             </form>
-            <a href="">No account? Register here</a>
+            <button class="register-button">No Account? Register here</button>
         </main>
+
+        <script src="js/register.js"></script>
     </body>
 </html>
