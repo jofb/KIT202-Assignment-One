@@ -26,7 +26,7 @@
     color: white;
 }
 .navbar-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .nav-items {
     display: flex;
@@ -36,37 +36,78 @@
     text-decoration: none;
 }
 .nav-item {
-    margin: 1rem 0;
-    padding: 0.5rem;
+    margin: 0.5rem 0;
     text-align: center;
-    background-image: url("../images/movie-button-right.png");
+    background-image: url("../images/reel-button.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    width: 8rem;
+
+    display: inline-block;
+    position: relative;
 }
-/* for jordan to fix later */
-/* .nav-item-index {
-    background-image: url("../images/movie-button-left.png");
+/* Code from https://www.30secondsofcode.org/css/s/hover-underline-animation
+    with some modifications */
+.nav-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-in-out;
+    z-index: -1;
+}
+.nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.nav-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+    z-index: -1;
+}
+.nav-item:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom right;
+}
+
+.nav-item:hover {
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+/* Home button is left, login button is right */
+.nav-item-index {
+    background-image: url("../images/reel-button-left.png");
 }
 .nav-item-login {
-    background-image: url("../images/movie-button-right.png");
-} */
+    background-image: url("../images/reel-button-right.png");
+}
 .nav-item button {
     cursor: pointer;
     color: white;
     color: inherit;
     background: none;
     border: none;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-}
-.nav-item:hover {
-    background-color: white;
-    color: black;
-    transition: 0.3s ease-in-out;
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem;
+    font-weight: 300;
+    width: 100%;
 }
 
 main {
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 20px;
 }

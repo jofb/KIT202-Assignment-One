@@ -1,4 +1,9 @@
-.about-response-item{
+.nav-item-about button {
+    font-weight: 700;
+    color: coral;
+}
+
+.about-response-item {
     background-color: white;
     margin: 1rem;
     padding: 2rem;

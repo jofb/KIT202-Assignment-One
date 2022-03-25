@@ -1,3 +1,8 @@
+.nav-item-login button {
+    font-weight: 700;
+    color: coral;
+}
+
 main {
     background-color: white;
     margin-top: 2rem;
