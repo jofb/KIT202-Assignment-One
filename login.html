@@ -18,8 +18,10 @@
         <link rel="stylesheet" href="css/login.css" />
     </head>
     <body>
-        <nav class="navbar">
+        <div class="navbar-title-container">
             <h1 class="navbar-title">Movie Blog</h1>
+        </div>
+        <nav class="navbar">
             <ul class="nav-items">
                 <li class="nav-item nav-item-index">
                     <button onclick="location.href='index.html'">Home</button>
@@ -38,25 +40,51 @@
             </ul>
         </nav>
         <main>
-            <h1 class="form-title">Login</h1>
-            <form class="login-form">
+            <form class="login-form" name="register-login-form" novalidate>
+                <h1 class="form-title">Login</h1>
+                <!-- Register email -->
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    hidden
+                />
                 <input
                     type="text"
-                    id="login-username"
+                    name="username"
+                    id="username"
                     placeholder="Username"
-                    required
                 />
-                <br />
                 <input
                     type="password"
-                    id="login-password"
+                    name="password"
+                    id="password"
                     placeholder="Password"
-                    required
                 />
-                <br />
-                <input type="submit" value="Sign In" />
+                <!-- Register confirm passwrod -->
+                <input
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    placeholder="Confirm Password"
+                    hidden
+                />
+                <p class="error-message" style="color: red"></p>
+                <input
+                    type="submit"
+                    value="Sign In"
+                    class="login-submit"
+                    name="submit"
+                />
+                <button
+                    class="register-button"
+                    type="button"
+                    name="registerButton"
+                >
+                    No Account? Register Here
+                </button>
             </form>
-            <button class="register-button">No Account? Register here</button>
         </main>
 
         <script src="js/register.js"></script>

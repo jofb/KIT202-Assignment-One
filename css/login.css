@@ -4,7 +4,63 @@
 }
 
 main {
-    background-color: white;
-    margin-top: 2rem;
+    background-color: none;
+    margin-top: 1rem;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.form-title {
+    font-size: 3rem;
+}
+
+form {
+    margin: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: #00000077 0 0.5rem 1rem;
+}
+input {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    min-width: 17rem;
+}
+.login-submit {
+    border: none;
+    padding: 0.4rem 1rem;
+    background: rgb(194, 53, 53);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.login-submit:hover {
+    background: rgb(247, 77, 77);
+    box-shadow: #00000055 0 0.5rem 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.register-button {
+    font-size: 1rem;
+    border: none;
+    padding: 0.4rem 1rem;
+    background: rgb(62, 163, 71);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: transparent 3px solid;
+}
+
+.register-button:hover {
+    background: rgb(64, 211, 76);
+    box-shadow: #00000055 0 0.5rem 1rem;
+    transition: 0.2s ease-in-out;
 }
