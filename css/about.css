@@ -3,9 +3,46 @@
     color: coral;
 }
 
+.about-responses {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    grid-auto-flow: row;
+}
+
 .about-response-item {
     background-color: white;
-    margin: 1rem;
-    padding: 2rem;
+    margin: 0;
+    padding: 1rem;
     border-radius: 1rem;
+
+    grid-column: span 2;
+}
+.about-response-theme {
+    grid-column: span 1;
+}
+.about-response-functionality {
+    grid-row: span 2;
+}
+.about-response-student {
+    text-align: center;
+    grid-column: span 4;
+}
+.about-response-student span {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+.about-response-img {
+    background-color: transparent;
+    box-shadow: none;
+    grid-column: span 1;
+}
+
+.about-response-img img {
+    width: 10rem;
+    height: 10rem;
 }

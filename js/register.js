@@ -86,7 +86,8 @@ function validateRegister(e) {
         errorMessage('Passwords don\'t match');
     }
     else if(form.password.value.search(passwordRegex) != 0) {
-        errorMessage('Please enter a valid password');
+        // errorMessage('Please enter a valid password (Refer to About Page)');
+        document.querySelector(".error-message").innerHTML = 'Please enter a valid password <br> (Refer to About Page)';
     }
     else {
         errorMessage('');

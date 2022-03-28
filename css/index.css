@@ -3,14 +3,6 @@
     color: coral;
 }
 
-.blog-post {
-    background-color: white;
-    margin: -1rem 1rem;
-    padding: 2rem;
-    padding-bottom: 4rem;
-    border-radius: 1rem 1rem 0 0;
-    box-shadow: #00000077 0 -0.5rem 1rem;
-}
 .blog-post h2 {
     font-size: 2rem;
     font-weight: 600;
