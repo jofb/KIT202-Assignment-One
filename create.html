@@ -45,14 +45,21 @@
             <form>
                 <label for="post-title">Title (70 characters maximum):</label>
                 <br />
-                <input type="text" id="post-title" maxlength="70" /> <br />
+                <input
+                    type="text"
+                    id="post-title"
+                    maxlength="70"
+                    size="40"
+                    onchange="updateTitle()"
+                /> <br />
 
                 <label for="post-body">Body:</label> <br />
                 <textarea
                     class="post-body"
                     id="post-body"
-                    rows="8"
-                    cols="40"
+                    rows="15"
+                    cols="100"
+                    onchange="updatePostBody()"
                 ></textarea>
                 <br />
 
@@ -60,8 +67,17 @@
 
                 <input type="submit" value="Post" />
             </form>
-        </main>
+        
 
-        <!-- Could have a preview of how post will appear once submitted -->
+        <!-- Post preview, still needs date preview and to look nicer -->
+            <article class="blog-post">
+                <h2 id="title-preview">Your title will go here</h2>
+                <h3>32nd Septober 2008</h3>
+                <p id="body-preview">
+                    This is the body of the post.
+                </p>
+            </article>
+        </main>
+        <script src="js/create.js"></script>
     </body>
 </html>
