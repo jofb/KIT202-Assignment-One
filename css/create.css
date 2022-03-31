@@ -67,7 +67,7 @@ textarea {
     font-size: 1rem;
     border: none;
     padding: 0.4rem 1rem;
-    background: rgb(62, 85, 163);
+    background: rgb(27, 104, 167);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
@@ -75,7 +75,7 @@ textarea {
 }
 
 .image-button:hover {
-    background: rgb(91, 116, 201);
+    background: rgb(55, 162, 170);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
