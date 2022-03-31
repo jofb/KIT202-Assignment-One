@@ -8,6 +8,7 @@
     --secondary-colour: rgb(243, 233, 221);
     --third-colour: rgb(253, 246, 236);
     --fourth-colour: rgb(183, 202, 219);
+    --main-gradient: linear-gradient(90deg, rgb(48, 212, 139) 0%, rgb(39, 83, 83) 50%,rgb(40, 161, 231) 100%);
 }
 
 * {
@@ -34,7 +35,7 @@ article {
 }
 
 body {
-    background-color: lightgray;
+    background: lightgray;
     min-height: 100vh;
 }
 

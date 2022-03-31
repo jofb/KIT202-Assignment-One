@@ -4,12 +4,12 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background: darkslategray;
+    background: var(--main-gradient);
     color: white;
 }
 .navbar-title-container {
     text-align: center;
-    background: darkslategray;
+    background: var(--main-gradient);
     color: white;
 }
 .navbar-title {
