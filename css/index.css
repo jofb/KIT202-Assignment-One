@@ -46,7 +46,7 @@
 
     margin: 0 1rem;
 
-    box-shadow: #00000077 0 0.3rem 0.5rem;
+    box-shadow: var(--shadow);
 }
 
 .create-post-icon {
@@ -64,7 +64,7 @@
     background-color: rgb(26, 94, 48);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .blog-post {
         flex-direction: column;
     }

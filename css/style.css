@@ -19,6 +19,8 @@
 
 main {
     width: 80%;
+    max-width: 1300px; /*Larger resolutions such as 1440p have very wide blog posts
+                         so this is here to limit maximum width of the page contents.*/
     margin: 0 auto;
     padding: 1.25rem;
 }
@@ -37,9 +39,9 @@ body {
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
     main {
         width: 100%;
-        padding: 0;
+        padding: 1.25rem 0;
     }
 }

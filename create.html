@@ -42,54 +42,58 @@
         </nav>
 
         <main>
-            <h1>Create post</h1>
-            <form name="create-form">
-                <label for="post-title">Title (70 characters maximum):</label>
-                <br />
-                <input
-                    type="text"
-                    id="post-title"
-                    maxlength="70"
-                    size="40"
-                    onchange="updateTitle()"
-                    required
-                />
-                <br />
-
-                <label for="post-body">Body:</label> <br />
-                <textarea
-                    class="post-body"
-                    id="post-body"
-                    rows="15"
-                    cols="100"
-                    onchange="updatePostBody()"
-                    required
-                ></textarea>
-                <br />
-
-                <div class="buttons">
+            <section class="post-creation">
+                <h1>Create post</h1>
+                <form name="create-form">
+                    <label for="post-title">Title (70 characters maximum):</label>
+                    <br />
                     <input
-                        type="button"
-                        value="Upload image..."
-                        class="image-button"
+                        type="text"
+                        id="post-title"
+                        maxlength="70"
+                        size="40"
+                        onchange="updateTitle()"
+                        required
                     />
+                    <br />
 
-                    <input
-                        type="submit"
-                        value="Post"
-                        name="submit"
-                        class="create-submit"
-                    />
-                </div>
-            </form>
+                    <label for="post-body">Body:</label> <br />
+                    <textarea
+                        class="post-body"
+                        id="post-body"
+                        rows="15"
+                        cols="100"
+                        onchange="updatePostBody()"
+                        required
+                    ></textarea>
+                    <br />
 
-            <h2>How your post will appear:</h2>
-            <article class="blog-post">
-                <h2 id="title-preview">Your title will go here</h2>
-                <h3 id="date-preview">32nd Septober 2008</h3>
-                <p id="body-preview">This is the body of the post.</p>
-            </article>
+                    <div class="buttons">
+                        <input
+                            type="button"
+                            value="Upload image..."
+                            class="image-button"
+                        />
+
+                        <input
+                            type="submit"
+                            value="Post"
+                            name="submit"
+                            class="create-submit"
+                        />
+                    </div>
+                </form>
+            </section>
+            <section class="post-preview">
+                <h2>How your post will appear:</h2>
+                <article class="blog-post">
+                    <h2 id="title-preview">Your title will go here</h2>
+                    <h3 id="date-preview">32nd Septober 2008</h3>
+                    <p id="body-preview">This is the body of the post.</p>
+                </article>
+            </section>
         </main>
+        
         <script src="js/create.js"></script>
     </body>
 </html>
