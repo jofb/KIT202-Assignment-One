@@ -5,6 +5,7 @@ main {
     background-color: white;
     border-radius: 1rem;
     margin-top: 2rem;
+    box-shadow: var(--shadow);
 }
 
 input {

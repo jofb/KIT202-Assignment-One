@@ -43,7 +43,7 @@
 
         <main>
             <h1>Create post</h1>
-            <form>
+            <form name="create-form">
                 <label for="post-title">Title (70 characters maximum):</label>
                 <br />
                 <input
@@ -52,7 +52,9 @@
                     maxlength="70"
                     size="40"
                     onchange="updateTitle()"
-                /> <br />
+                    required
+                />
+                <br />
 
                 <label for="post-body">Body:</label> <br />
                 <textarea
@@ -61,22 +63,20 @@
                     rows="15"
                     cols="100"
                     onchange="updatePostBody()"
+                    required
                 ></textarea>
                 <br />
 
                 <input type="button" value="Upload image..." /> <br />
 
-                <input type="submit" value="Post" />
+                <input type="submit" value="Post" name="submit" />
             </form>
-        
 
-        <!-- Post preview, still needs date preview and to look nicer -->
+            <!-- Post preview, still needs date preview and to look nicer -->
             <article class="blog-post">
                 <h2 id="title-preview">Your title will go here</h2>
-                <h3>32nd Septober 2008</h3>
-                <p id="body-preview">
-                    This is the body of the post.
-                </p>
+                <h3 id="date-preview">32nd Septober 2008</h3>
+                <p id="body-preview">This is the body of the post.</p>
             </article>
         </main>
         <script src="js/create.js"></script>
