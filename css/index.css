@@ -27,7 +27,7 @@
 .blog-post-image {
     box-shadow: var(--shadow);
     border-radius: 1rem;
-    max-width: 16rem;
+    max-width: 13rem;
     height: auto;
 }
 
