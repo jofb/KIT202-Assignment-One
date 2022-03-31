@@ -25,7 +25,9 @@
 }
 
 .blog-post-image {
-    width: 256px;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    max-width: 16rem;
     height: auto;
 }
 
@@ -64,7 +66,7 @@
 
 @media (max-width: 1000px) {
     .blog-post {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .blog-post-text {
@@ -75,4 +77,4 @@
     .blog-post-image {
         margin: auto;
     }
-  }
+}
