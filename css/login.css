@@ -24,7 +24,7 @@ form {
     padding-top: 1rem;
     background-color: white;
     border-radius: 1rem;
-    box-shadow: #00000077 0 0.5rem 1rem;
+    box-shadow: var(--shadow);
 }
 input {
     font-size: 1rem;
@@ -44,7 +44,7 @@ input {
 
 .login-submit:hover {
     background: rgb(247, 77, 77);
-    box-shadow: #00000055 0 0.5rem 1rem;
+    box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
 
@@ -61,6 +61,6 @@ input {
 
 .register-button:hover {
     background: rgb(64, 211, 76);
-    box-shadow: #00000055 0 0.5rem 1rem;
+    box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
