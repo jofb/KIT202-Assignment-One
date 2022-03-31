@@ -27,6 +27,8 @@
 .nav-item {
     margin: 0.5rem 0;
     text-align: center;
+
+    /* Reel button setup */
     background-image: url("../images/reel-button.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -35,6 +37,7 @@
     display: inline-block;
     position: relative;
 }
+/* Nav button animation */
 /* Code from https://www.30secondsofcode.org/css/s/hover-underline-animation
     with some modifications */
 .nav-item::after {
@@ -85,7 +88,6 @@
 }
 .nav-item button {
     cursor: pointer;
-    color: white;
     color: inherit;
     background: none;
     border: none;

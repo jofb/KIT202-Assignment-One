@@ -51,3 +51,12 @@
 h1 {
     font-size: 1.6rem;
 }
+@media (max-width: 800px) {
+    .about-response-item {
+        grid-column: span 3;
+    }
+    .about-response-references {
+        text-align: center;
+        grid-row-start: 5;
+    }
+}

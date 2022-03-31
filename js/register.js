@@ -16,6 +16,7 @@ registerBtn.addEventListener('click', event => {
     
     //Update form contents to register form
     document.querySelector(".form-title").innerHTML = "Register"; 
+    document.title = "Register";
 
     form.email.hidden = false;
     form.confirmPassword.hidden = false;

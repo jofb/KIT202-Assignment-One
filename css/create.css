@@ -15,10 +15,6 @@ textarea {
     padding: 0.6rem;
 }
 
-.post-creation {
-    
-}
-
 .post-preview {
     display: flex;
     justify-content: space-between;
@@ -39,7 +35,12 @@ textarea {
     border-radius: 1rem;
     min-width: 13rem;
     height: 19rem;
-    background: linear-gradient(0deg, rgb(226,161,63) 20%, rgb(192,196,224) 44%, rgb(110,230,255) 82%);
+    background: linear-gradient(
+        0deg,
+        rgb(226, 161, 63) 20%,
+        rgb(192, 196, 224) 44%,
+        rgb(110, 230, 255) 82%
+    );
 }
 
 .buttons input {
@@ -50,7 +51,7 @@ textarea {
     font-size: 1rem;
     border: none;
     padding: 0.4rem 1rem;
-    background: rgb(62, 163, 71);
+    background: var(--button-green);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
@@ -58,7 +59,7 @@ textarea {
 }
 
 .create-submit:hover {
-    background: rgb(64, 211, 76);
+    background: var(--button-green-light);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }

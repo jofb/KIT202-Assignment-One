@@ -6,7 +6,6 @@
 main {
     background-color: none;
     margin-top: 1rem;
-    border-radius: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -36,14 +35,14 @@ input {
 .login-submit {
     border: none;
     padding: 0.4rem 1rem;
-    background: rgb(194, 53, 53);
+    background: var(--button-red);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
 }
 
 .login-submit:hover {
-    background: rgb(247, 77, 77);
+    background: var(--button-red-light);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
@@ -52,7 +51,7 @@ input {
     font-size: 1rem;
     border: none;
     padding: 0.4rem 1rem;
-    background: rgb(62, 163, 71);
+    background: var(--button-green);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
@@ -60,7 +59,7 @@ input {
 }
 
 .register-button:hover {
-    background: rgb(64, 211, 76);
+    background: var(--button-green-light);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
