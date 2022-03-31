@@ -1,6 +1,6 @@
 .nav-item-login button {
-    font-weight: 700;
-    color: coral;
+    font-weight: 600;
+    color: var(--text-highlight);
 }
 
 main {
@@ -35,14 +35,14 @@ input {
 .login-submit {
     border: none;
     padding: 0.4rem 1rem;
-    background: var(--button-red);
+    background: var(--button-green);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
 }
 
 .login-submit:hover {
-    background: var(--button-red-light);
+    background: var(--button-green-light);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }
@@ -51,7 +51,7 @@ input {
     font-size: 1rem;
     border: none;
     padding: 0.4rem 1rem;
-    background: var(--button-green);
+    background: rgb(49, 70, 78);
     border-radius: 0.5rem;
     color: white;
     cursor: pointer;
@@ -60,6 +60,7 @@ input {
 
 .register-button:hover {
     background: var(--button-green-light);
+    background: rgb(131, 131, 131);
     box-shadow: var(--shadow);
     transition: 0.2s ease-in-out;
 }

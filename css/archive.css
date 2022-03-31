@@ -1,6 +1,6 @@
 .nav-item-archive button {
-    font-weight: 700;
-    color: coral;
+    font-weight: 600;
+    color: var(--text-highlight);
 }
 
 .archive-post {

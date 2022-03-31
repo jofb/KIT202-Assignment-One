@@ -1,6 +1,6 @@
 .nav-item-about button {
-    font-weight: 700;
-    color: coral;
+    font-weight: 600;
+    color: var(--text-highlight);
 }
 
 .about-responses {
@@ -42,7 +42,7 @@
 .about-response-references a {
     display: list-item;
     list-style: none;
-    color: coral;
+    color: rgb(23, 89, 211);
     font-weight: 600;
     text-decoration: none;
     line-height: 2rem;
