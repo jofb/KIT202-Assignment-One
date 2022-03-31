@@ -5,8 +5,8 @@ const datePreview = document.getElementById("date-preview");
 const desiredTitle = document.getElementById("post-title");
 const desiredPost = document.getElementById("post-body");
 
-const form = document.forms['create-form'];
-
+// These two functions are called by the onchange event from their respective form elements.
+// Only for the purpose of previewing a post before it is submitted
 function updateTitle() {
     titlePreview.innerText = desiredTitle.value;
 }
