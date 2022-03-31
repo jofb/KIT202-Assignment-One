@@ -11,6 +11,15 @@
     font-weight: 700;
 }
 
+.blog-post-text {
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+.blog-post-image {
+    width: 200px;
+}
+
 .create-post-button {
     border: none;
     border-radius: 1rem;

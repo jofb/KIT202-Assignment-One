@@ -28,6 +28,7 @@ article {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: #00000077 0 0.5rem 1rem;
+    display: flex;
 }
 
 body {
