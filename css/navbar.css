@@ -6,6 +6,7 @@
     top: 0;
     background: var(--main-gradient);
     color: white;
+    box-shadow: #00000057 0 0.75rem 0.6rem;
 }
 .navbar-title-container {
     text-align: center;
