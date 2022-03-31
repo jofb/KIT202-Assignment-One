@@ -3,6 +3,7 @@
 /* Variables */
 :root {
     --font-stack: "Poppins", sans-serif;
+    --shadow: #00000077 0 0.5rem 1rem;
     --primary-colour: rgb(218, 184, 139);
     --secondary-colour: rgb(243, 233, 221);
     --third-colour: rgb(253, 246, 236);
