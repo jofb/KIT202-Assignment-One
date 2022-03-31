@@ -24,3 +24,41 @@ textarea {
     box-sizing: border-box;
     padding: 0.6rem;
 }
+
+.buttons input {
+    font-size: 1.2rem;
+}
+
+.create-submit {
+    font-size: 1rem;
+    border: none;
+    padding: 0.4rem 1rem;
+    background: rgb(62, 163, 71);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: transparent 3px solid;
+}
+
+.create-submit:hover {
+    background: rgb(64, 211, 76);
+    box-shadow: var(--shadow);
+    transition: 0.2s ease-in-out;
+}
+
+.image-button {
+    font-size: 1rem;
+    border: none;
+    padding: 0.4rem 1rem;
+    background: rgb(62, 85, 163);
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: transparent 3px solid;
+}
+
+.image-button:hover {
+    background: rgb(91, 116, 201);
+    box-shadow: var(--shadow);
+    transition: 0.2s ease-in-out;
+}

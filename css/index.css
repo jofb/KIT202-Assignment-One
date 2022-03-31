@@ -3,6 +3,10 @@
     color: coral;
 }
 
+.blog-post {
+    display: flex;
+}
+
 .blog-post h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -11,13 +15,20 @@
     font-weight: 700;
 }
 
-.blog-post-text {
-    padding-right: 2rem;
+.blog-post p {
     text-align: justify;
 }
 
+.blog-post-text {
+    padding-right: 2rem;
+    padding-bottom: 0;
+}
+
 .blog-post-image {
-    width: 200px;
+    box-shadow: var(--shadow);
+    border-radius: 1rem;
+    max-width: 16rem;
+    height: auto;
 }
 
 .create-post-button {
@@ -49,4 +60,19 @@
 
 .create-post-button:active {
     background-color: rgb(26, 94, 48);
+}
+
+@media only screen and (max-width: 1000px) {
+    .blog-post {
+        flex-direction: column;
+    }
+
+    .blog-post-text {
+        padding-right: 0;
+        padding-bottom: 2rem;
+    }
+
+    .blog-post-image {
+        margin: auto;
+    }
 }
