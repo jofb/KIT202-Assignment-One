@@ -22,12 +22,17 @@
         <link rel="stylesheet" href="css/navbar.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/about.css" />
+
+        <script src="js/navbar.js" defer></script>
     </head>
     <body>
         <div class="navbar-title-container">
             <h1 class="navbar-title">Movie Blog</h1>
         </div>
         <nav class="navbar">
+            <div class="nav-mobile-menu-container" onclick="showMenu()">
+                <img src="images/bars.png" class="nav-mobile-menu" alt="" />
+            </div>
             <ul class="nav-items">
                 <li class="nav-item nav-item-index">
                     <button onclick="location.href='index.html'">Home</button>

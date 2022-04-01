@@ -18,6 +18,8 @@ registerBtn.addEventListener('click', event => {
     document.querySelector(".form-title").innerHTML = "Register"; 
     document.title = "Register";
 
+
+    document.querySelector(".password-policy").hidden = false;
     form.email.hidden = false;
     form.confirmPassword.hidden = false;
 
@@ -88,7 +90,7 @@ function validateRegister(e) {
     }
     else if(form.password.value.search(passwordRegex) != 0) {
         // errorMessage('Please enter a valid password (Refer to About Page)');
-        document.querySelector(".error-message").innerHTML = 'Please enter a valid password <br> (Refer to About Page)';
+        document.querySelector(".error-message").innerHTML = 'Please enter a valid password';
     }
     else {
         errorMessage('');

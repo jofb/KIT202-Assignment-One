@@ -13,12 +13,6 @@
 
     --button-green: rgb(22, 155, 82);
     --button-green-light: rgb(50, 206, 133);
-    --main-gradient: linear-gradient(
-        90deg,
-        rgb(48, 212, 139) 0%,
-        rgb(39, 83, 83) 50%,
-        rgb(40, 161, 231) 100%
-    );
     --text-highlight: rgb(255, 218, 52);
     --main-gradient: linear-gradient(
         90deg,
